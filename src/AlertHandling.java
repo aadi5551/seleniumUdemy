@@ -13,7 +13,7 @@ public class AlertHandling {
 		
 		WebDriver driver=new ChromeDriver();
 		
-		//driver.get("https://www.spicejet.com/");
+		//driver.get("https://www.spicejet.com/");xvf
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
 		driver.manage().window().maximize();
