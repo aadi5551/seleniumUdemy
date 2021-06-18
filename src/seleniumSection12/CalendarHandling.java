@@ -1,0 +1,22 @@
+package seleniumSection12;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CalendarHandling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.setProperty("webdriver.chrome.driver", "/home/appinventiv/Downloads/chromedriver");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.path2usa.com/travel-companions");
+
+		driver.manage().window().maximize();
+
+	}
+
+}
