@@ -44,7 +44,7 @@ public class Demo {
 		
 		
 		driver.close(); //closes the currently focussed window
-	//	driver.quit(); //closes all the windows including cfild windows.
+	//	driver.quit(); //closes all the windows including child windows.
 		
 	}
 

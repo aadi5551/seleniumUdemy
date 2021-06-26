@@ -37,7 +37,7 @@ public class AutoSuggestDropdown {
 		
 		//System.out.println(options);
 		
-		driver.close();
+		//driver.close();
 	}
 
 }

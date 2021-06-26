@@ -1,3 +1,5 @@
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,6 +15,7 @@ public class EndToEnd {
 		System.setProperty("webdriver.chrome.driver", "/home/appinventiv/Downloads/chromedriver");
 		
 		WebDriver driver=new ChromeDriver();
+		
 		
 		driver.get("https://www.spicejet.com/");
 		//driver.get("https://rahulshettyacademy.com/AutomationPractice/");
@@ -51,7 +54,7 @@ public class EndToEnd {
 		
 		
 		Select selectCurrency= new Select(driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency")));
-		selectCurrency.selectByValue("INR"); //selecting Currency whose Value is INR.
+		selectCurrency.selectByValue("USD"); //selecting Currency whose Value is INR.
 		
 		//System.out.println(driver.findElements(By.id("discount-checkbox")).get(0));
 		driver.findElement(By.id("ctl00_mainContent_chk_friendsandfamily")).click();
